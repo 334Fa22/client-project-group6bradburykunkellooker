@@ -19,6 +19,14 @@ main {
   padding: 20px;
 }
 
+/* Style rule for catpaws element */
+.catpaws {
+  margin: auto;
+  width: 30%;
+  padding: 20px;
+  align: left;
+}
+
 /* Add a black background color to the top navigation */
 .catpaws {
   background-color: #333;
