@@ -76,6 +76,12 @@ main {
   color: white;
 }
 
+.right {
+  background-color: #333;
+  overflow: hidden;
+  float: right;
+}
+
 /* The dropdown container */
 .dropdown {
   float: left;
