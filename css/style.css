@@ -110,8 +110,8 @@ main {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
+  position: center;
+  right: 0;
   bottom: 0;
   width: 100%;
   background-color: #333;
@@ -119,6 +119,12 @@ main {
   text-align: center;
   overflow: hidden;
   position: fixed;
+  float: bottom;
+  padding-top: 30px;
+}
+
+.social {
+  top: 20%;
 }
 
 /* Change the color of links on hover */
