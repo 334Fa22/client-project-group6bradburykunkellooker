@@ -63,10 +63,34 @@
 </div>
 
 
-<a
-  href="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=bfeb4b46-76a5-479a-8ae9-2ac6a70e232b&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL">Login
-  Page</a>
+<form>
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd">
+</form>
 
+<div class="form-group">
+  <div class="form-actions">
+    Forgot
+
+    <a id="usernameRecoverLink" href="https://www.nwmissouri.edu/compserv/Passwords/index.htm">
+      Username
+    </a>
+    or
+
+    <a id="passwordRecoverLink" href="https://www.nwmissouri.edu/compserv/Passwords/index.htm">
+      Password
+    </a>
+    ?
+  </div>
+
+  <div class="form-actions">
+
+  </div>
+
+
+</div>
 
 <footer>
 
@@ -124,3 +148,7 @@
   </div>
 
 </footer>
+
+</body>
+
+</html>
