@@ -9,8 +9,6 @@ main {
   font-family: serif;
 }
 
-
-
 .header {
   width: 1000px;
   float: left;
@@ -127,24 +125,23 @@ main {
 }
 
 #page-container {
-position: fixed;
-min-height: 1000px;
+  position: fixed;
+  min-height: 1000px;
 }
 
 #content-wrap {
-padding-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 #footer {
-position: absolute;
-bottom: 0;
-width: 100%;
-height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 
 #form {
   margin-top: 2%;
-  background-color: #f2f2f2;
   padding: 2%;
 }
 
@@ -167,16 +164,6 @@ height: 2.5rem;
   height: 50%;
 }
 
-#form {
-  margin-top: 2%;
-  background-color: #f2f2f2;
-  padding: 2%;
-}
-
-#form h2 {
-  text-align: center;
-}
-
 /* Style rules for form elements */
 fieldset, input, select, textarea {
   margin-bottom: 2%;
@@ -196,7 +183,7 @@ form #submit {
   margin: 0 auto;
   border: none;
   display: block;
-  padding: 2%;
+  padding: 4%;
   background-color: #b3b3b3;
   font-size: 1em;
   border-radius: 10px;
@@ -215,30 +202,6 @@ footer p a {
   text-decoration: none;
 }
 
-/* Style rules for form elements */
-fieldset, input, select, textarea {
-  margin-bottom: 2%;
-}
-
-fieldset legend {
-  font-weight: bold;
-  font-size: 1.25em;
-}
-
-label {
-  display: block;
-  padding-top: 3%;
-}
-
-form #submit {
-  margin: 0 auto;
-  border: none;
-  display: block;
-  padding: 2%;
-  background-color: #b3b3b3;
-  font-size: 1em;
-  border-radius: 10px;
-}
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
 
@@ -340,7 +303,7 @@ form #submit {
   }
 
   #example {
-     display: none;
+    display: none;
   }
 
   .tel-num {
@@ -389,16 +352,31 @@ form #submit {
 
   /* Tablet Viewport: Animation */
   0-website-keyframes text-animation {
-     0% { font-size: 1em; }
-     50% { font-size: 2em; }
-     100% { font-size: 1.35em; }
+    0% {
+      font-size: 1em;
+    }
+
+    50% {
+      font-size: 2em;
+    }
+
+    100% {
+      font-size: 1.35em;
+    }
   }
 
-
   @keyframes text-animation {
-    0% { font-size: 1em; }
-    50% { font-size: 2em; }
-    100% { font-size: 1.35em; }
+    0% {
+      font-size: 1em;
+    }
+
+    50% {
+      font-size: 2em;
+    }
+
+    100% {
+      font-size: 1.35em;
+    }
   }
 }
 
@@ -444,7 +422,6 @@ figcaption {
     color: #000;
     background-color: #fff;
     transform: scale(1.3);
-
   }
 
   /* Desktop Viewport: Style Rules for main content */
@@ -525,6 +502,7 @@ figcaption {
     color: #000;
   }
 }
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -545,6 +523,7 @@ a:hover {
   background-color: #04AA6D;
   color: white;
 }
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {
