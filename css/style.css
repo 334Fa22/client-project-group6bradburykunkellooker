@@ -9,7 +9,7 @@ main {
   font-family: serif;
 }
 
-.header {
+.header-logo {
   width: 1000px;
   float: left;
   font-family: sans-serif;
@@ -17,6 +17,15 @@ main {
   color: #006a4e;
   text-align: left;
   padding: 20px;
+}
+
+.header-image {
+background-image: url(“admin.jpeg”);
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+height: 70px;
 }
 
 /* Add a black background color to the top navigation */
