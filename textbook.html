@@ -65,67 +65,122 @@
 
 </div>
 
+<div id="form">
 
-<a href="https://ssbprod.nwmissouri.edu/PROD/nwtext.P_Showschedule">Textbook Information</a>
+  <h2>Complete the form below to begin your free trial.</h2>
+
+  <form class="form-grid">
+    <!-- Start Form -->
+
+    <fieldset>
+      <legend>Select Term</legend>
+
+      <label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Spring 2023">Spring 2023</label>
+
+      <label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Summer 2023">Summer 2023</label>
+
+      <label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Fall 2023">Fall 2023</label>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Course Info</legend>
+      <label for="fName">Department:</label>
+      <select id="Select">
+        <option value-="media">Spring 2023</option>
+        <option value-="media">Summer 2023</option>
+        <option value-="media">Fall 2023</option>
+      </select>
+
+      <label for="course">Course #</label>
+      <textarea id="course #" name="course #" rows="1" cols="12"></textarea>
+      </select>
+
+      <label for="course">Course Category:</label>
+      <select id="Select">
+        <option value-="media">Undergrad</option>
+        <option value-="media">Graduate</option>
+        <option value-="media">Specialist</option>
+      </select>
+    </fieldset>
 
 
-<footer>
+    <fieldset>
+      <legend>Extra</legend>
+      <label for="course">Instructor:</label>
+      <textarea id="course #" name="course #" rows="1" cols="12"></textarea>
+      </select>
 
-  <div class="footer">
-    <div class="navbar" id="myNavbar">
-      <a href="index">Home</a>
-      <a href="login">Login</a>
-      <div class="dropdown">
-        <button class="dropbtn">Schedule Information
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="classes">Class Openings</a>
-          <a href="https://ssbprod.nwmissouri.edu/PROD/bwckschd.p_disp_dyn_sched">Class Schedule</a>
-          <a href="https://dwprod-c.nwmissouri.edu:8441/Dashboard/worksheets/WEB31">Degree Audit</a>
+      <label for="email">Part of Term:</label>
+      <select id="Select">
+        <option value-="block 1">Block 1</option>
+        <option value-="block 2">Block 2</option>
+        <option value-="full term">Full Term</option>
+      </select>
+    </fieldset>
+
+    <input type="submit" id="submit" value="Submit" class="btn">
+  </form>
+
+  </fieldset>
+
+  <footer>
+
+    <div class="footer">
+      <div class="navbar" id="myNavbar">
+        <a href="index">Home</a>
+        <a href="login">Login</a>
+        <div class="dropdown">
+          <button class="dropbtn">Schedule Information
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="classes">Class Openings</a>
+            <a href="https://ssbprod.nwmissouri.edu/PROD/bwckschd.p_disp_dyn_sched">Class Schedule</a>
+            <a href="https://dwprod-c.nwmissouri.edu:8441/Dashboard/worksheets/WEB31">Degree Audit</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Applications
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a
+              href="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=f2ec39da-077d-4ee5-8b35-d1df0fa661aa&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL">Apply
+              for Housing</a>
+            <a href="https://www.nwmissouri.edu/admissions/apply/">Apply for Admissions</a>
+            <a href="applications">Check Application Status (Grad & International)</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Resources
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="textbook">Textbook Information</a>
+            <a href="https://www.nwmissouri.edu/admissions/transfer/equivalencies.htm">Transfer Equivalencies</a>
+          </div>
+        </div>
+        <a href="https://secure.touchnet.com/C21165_tsa/web/login.jsp">Account Payment Center</a>
+        <div class="right">
+          <a href="https://ssbprod.nwmissouri.edu/PROD/twbkwbis.P_GenMenu?name=homepage&accessibility=true">Accessibility Mode</a>
         </div>
       </div>
-      <div class="dropdown">
-        <button class="dropbtn">Applications
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a
-            href="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=f2ec39da-077d-4ee5-8b35-d1df0fa661aa&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL">Apply
-            for Housing</a>
-          <a href="https://www.nwmissouri.edu/admissions/apply/">Apply for Admissions</a>
-          <a href="applications">Check Application Status (Grad & International)</a>
-        </div>
+
+      <div class="social">
+        <a href="/" target="https:www.facebook.com/nwmostate"> <img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
+        <a href="/" target="https:www.twitter.com/nwmostate"> <img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
       </div>
-      <div class="dropdown">
-        <button class="dropbtn">Resources
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="textbook">Textbook Information</a>
-          <a href="https://www.nwmissouri.edu/admissions/transfer/equivalencies.htm">Transfer Equivalencies</a>
-        </div>
+
+      <div class="copyright">
+        <p><a href="mailto:nwmissouri.edu">nwmissouri.edu</a></p>
+        <p>&copy; Copyright 2022. All Rights Reserved.</p>
       </div>
-      <a href="https://secure.touchnet.com/C21165_tsa/web/login.jsp">Account Payment Center</a>
-      <div class="right">
-        <a href="https://ssbprod.nwmissouri.edu/PROD/twbkwbis.P_GenMenu?name=homepage&accessibility=true">Accessibility Mode</a>
-      </div>
+
     </div>
 
-    <div class="social">
-      <a href="/" target="https:www.facebook.com/nwmostate"> <img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
-      <a href="/" target="https:www.twitter.com/nwmostate"> <img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
-    </div>
+  </footer>
 
-    <div class="copyright">
-      <p><a href="mailto:nwmissouri.edu">nwmissouri.edu</a></p>
-      <p>&copy; Copyright 2022. All Rights Reserved.</p>
-    </div>
-
-  </div>
-
-</footer>
-
-</body>
+  </body>
 
 </html>
