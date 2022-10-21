@@ -20,12 +20,12 @@ main {
 }
 
 .header-image {
-background-image: url(“admin.jpeg”);
-background-position: center;
-background-repeat: no-repeat;
-position: relative;
-background-size: cover;
-height: 70px;
+  background-image: url(“admin.jpeg”);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  width: inherit;
 }
 
 /* Add a black background color to the top navigation */
@@ -114,6 +114,10 @@ height: 70px;
 .dropdown-content a:hover {
   background-color: #ddd;
   color: black;
+}
+
+.header-image {
+  width: 10px;
 }
 
 /* Show the dropdown menu on hover */
