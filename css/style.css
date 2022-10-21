@@ -583,7 +583,11 @@ a:hover {
   color: white;
   text-align: center;
   overflow: hidden;
+<<<<<<< Updated upstream
   position: relative;
+=======
+  position: absolute;
+>>>>>>> Stashed changes
   padding-top: 5px;
   padding-bottom: 10px;
   text-decoration: none;
