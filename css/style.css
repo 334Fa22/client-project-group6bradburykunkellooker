@@ -9,7 +9,11 @@ main {
   font-family: serif;
 }
 
-.header {
+<style type="text/css">ul {
+  list-style-type: none;
+}
+
+</style>.header {
   width: 100%;
   float: left;
   font-family: sans-serif;
