@@ -25,7 +25,7 @@ main {
 
 /* The hero image */
 .hero-image {
-  width: 100%;
+  width: 1500px;
   /* Position and center the image to scale nicely on all screens */
   position: center;
   repeat: no-repeat;
@@ -579,7 +579,7 @@ footer p a {
   .footer {
     right: 0;
     bottom: 0;
-    width: 100%;
+    width: 1500px;
     background-color: #333;
     color: white;
     text-align: center;
