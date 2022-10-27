@@ -23,18 +23,6 @@ main {
   padding: 20px;
 }
 
-/* The hero image */
-.hero-image {
-  width: 1500px;
-  /* Position and center the image to scale nicely on all screens */
-  position: center;
-  repeat: no-repeat;
-  size: cover;
-  position: relative;
-  object-fit: cover;
-  opacity: 0.8;
-}
-
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
