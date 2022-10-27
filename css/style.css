@@ -1,6 +1,89 @@
 - //*
 Author: Addalynn Bradbury Date: 9/18/22 File Name: style.css */
 
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section,
+article, aside, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Style rules for body and images */
+body {
+  background-color: #fff;
+}
+
+/* Style rule for box sizing applies to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Style rules for mobile viewport */
+/* Style rule for header */
+header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #006a4e;
+  color: black;
+}
+
+header img {
+  margin: 0 auto;
+  width: 100%;
+  align: center;
+}
+
+/* Style rules for hamburger area */
+.mobile-nav a {
+  color: #fff;
+  font-family: 'Francois One';
+  text-align: center;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 3%;
+  display: block;
+}
+
+.mobile-nav a.menu-icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Show mobile class, hide tablet-desktop class and menu-links id */
+.mobile {
+  display: block;
+}
+
+.tablet-desktop, #menu-links {
+  display: none;
+}
+
 /* Style rules for main content */
 main {
   background-color: #fff;
@@ -8,20 +91,9 @@ main {
   font-size: 1.15em;
   font-family: serif;
 }
-
 .nobull {
   list-style-type: none;
  }
-
-</style>.header {
-  width: 100%;
-  float: left;
-  font-family: sans-serif;
-  font-size: 250%;
-  color: #006a4e;
-  text-align: left;
-  padding: 20px;
-}
 
 /* The hero image */
 .hero-image {
@@ -340,7 +412,6 @@ footer p a {
   nav li {
     font-size: 1.5em;
     font-family: 'Francois One', sans-serif;
-    border-top: none;
     display: inline-block;
     border-right: 1px solid #fff;
   }
@@ -354,116 +425,6 @@ footer p a {
     display: block;
     color: #fff;
     text-decoration: none;
-  }
-
-  /* Tablet Viewport: Style rules for main content area */
-  main ul {
-    margin: 0 0 4% 10%;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-  }
-
-  .pic-text {
-    font-size: 1em;
-    padding: 10px;
-  }
-
-  aside {
-    text-align: center;
-    font-size: 1.25em;
-    font-style: italic;
-    font-weight: bold;
-    padding: 2%;
-    background-color: rgba(204, 204, 204, 0.5);
-    box-shadow: 5px 5px 8px #000;
-    text-shadow: 5px 5px 5px #b3b3b3;
-    border-radius: 0 15px;
-  }
-
-  .grid-item4 {
-    grid-column: 1 / span 2;
-  }
-
-  #exercises {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    background: linear-gradient(to right, #ccc, #fff);
-    background-color: #f2f2f2;
-    padding: 1% 2%;
-  }
-
-  #exercises dt {
-    font-weight: bold;
-  }
-
-  #exercises dd {
-    padding: 0.5% 1% 2% 0;
-  }
-
-  .viewex {
-    font-weight: bold;
-    cursor: pointer;
-  }
-
-  #example {
-    display: none;
-  }
-
-  .tel-num {
-    font-size: 1.25em;
-  }
-
-  .map {
-    width: 600px;
-    height: 450px;
-  }
-
-  /* Tablet Viewport: Style rules for table */
-  table {
-    border: 1px solid #000;
-    border-collapse: collapse;
-    margin: 0 auto;
-    width: 100%;
-  }
-
-  caption {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 1%;
-  }
-
-  th, td {
-    border: 1px solid #000;
-    padding: 2%;
-  }
-
-  th {
-    background-color: #000;
-    color: #fff;
-    font-size: 1.15em;
-  }
-
-  tr:nth-child(odd) {
-    background-color: #ccc;
-  }
-
-  /* Tablet Viewport: Style rule for form element */
-  form {
-    width: 70%;
-    margin: 0 auto;
-  }
-
-  figcaption {
-    -webkit-animation-name: text-animation;
-    animation-name: text-animation;
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
-    -webkit-animation-duration: 5s;
-    animation-duration: 5s;
   }
 
   /* Media Query for Desktop Viewport */
