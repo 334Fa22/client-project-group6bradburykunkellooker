@@ -12,11 +12,7 @@
   <meta name="description" content="Welcome to Northwest Missouri State University">
 </head>
 
-<header>
-  <div>
-    <img src="images/admin.jpeg" alt="Northwest Missouri State University Administation Building" width="100%">
-  </div>
-</header>
+
 
 <div class="topnav">
   <a class="navlogo" href="https://www.nwmissouri.edu" title="Return"><img alt="Northwest Missouri State University" height="60" src="images/newcatpaws.png" width="60"></a>
@@ -55,58 +51,28 @@
   </div>
   <a href="https://secure.touchnet.com/C21165_tsa/web/login.jsp">Account Payment Center</a>
   <div class="right">
-    <a href="https://ssbprod.nwmissouri.edu/PROD/twbkwbis.P_GenMenu?name=homepage&accessibility=true">Accessibility Mode</a>
+    <a href="accessiblity.html">Accessibility Mode</a>
   </div>
 
 </div>
 
 <body>
-  <div id="page-container">
-    <div id="content-wrap">
+    <div class="bg-img">
+    <form action="/login.html" class="container">
+      <h1>Login</h1>
 
-      <div class="form-actions">
+      <label for="Username"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="username" required>
 
-      </div>
-    </div>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
 
+      <button type="submit" class="btn">Login</button>
+    </form>
+  </div>
 
-    <div id="form">
-
-      <h2>Login to Catpaws</h2>
-
-      <form class="form-grid">
-        <!-- Start Form -->
-
-        <fieldset>
-
-          <label for="username">Username:</label>
-          <input type="text" name="username" id="username" required>
-
-          <label for="password">Password:</label>
-          <input type="text" name="password" id="password" required>
-
-          <div class="form-group">
-            <div class="form-actions">
-              Forgot
-
-              <a id="usernameRecoverLink" href="https://www.nwmissouri.edu/compserv/Passwords/index.htm">
-                Username
-              </a>
-              or
-
-              <a id="passwordRecoverLink" href="https://www.nwmissouri.edu/compserv/Passwords/index.htm">
-                Password
-              </a>
-              ?
-            </div>
-
-        </fieldset>
-
-        <input type="submit" id="submit" value="Submit" class="btn">
-
-      </form>
-    </div>
 </body>
+
 <div id="footer">
 
   <div class="footer">
@@ -146,7 +112,7 @@
       </div>
       <a href="https://secure.touchnet.com/C21165_tsa/web/login.jsp">Account Payment Center</a>
       <div class="right">
-        <a href="https://ssbprod.nwmissouri.edu/PROD/twbkwbis.P_GenMenu?name=homepage&accessibility=true">Accessibility Mode</a>
+        <a href="accessiblity.html">Accessibility Mode</a>
       </div>
     </div>
     <div class="row">
