@@ -14,7 +14,6 @@ article, aside, audio, video {
 /* Style rules for body and images */
 body, html, {
   height: 100%;
-  background-color: #fff;
 }
 
 /* Style rule for box sizing applies to all elements */
@@ -68,7 +67,7 @@ header img {
 }
 
 .navlogo {
-  padding: 0;
+  padding: 0px;
   background-color: white;
 }
 
@@ -188,7 +187,6 @@ header img {
 
 /* Style rules for main content */
 main {
-  background-color: #fff;
   padding: 2%;
   font-size: 1.15em;
   font-family: serif;
@@ -207,101 +205,10 @@ main {
   position: relative;
 }
 
-/* Add styles to the form container */
-.container {
-  position: absolute;
-  right: 0;
-  margin: 20px;
-  max-width: 300px;
-  padding: 16px;
-  background-color: white;
-}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Set a style for the submit button */
-.btn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
 .nobull {
   list-style-type: none;
 }
 
-/* The hero image */
-.hero-image {
-  width: 100%;
-  /* Position and center the image to scale nicely on all screens */
-  position: center;
-  repeat: no-repeat;
-  size: cover;
-  position: relative;
-  object-fit: cover;
-  opacity: 0.8;
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
-  font-size: 2em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.5);
-}
-
-.loginbtn {
-  margin: 0 auto;
-  border: none;
-  display: block;
-  padding: 2%;
-  color: #fff;
-  background-color: #006a4e;
-  font-size: .7em;
-  border-radius: 6px;
-}
-
-body, html {
-  height: 100%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.bg-img {
-  background-image: url("images/dogwood.jpg");
-  min-height: 380px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 /* Add styles to the form container */
 .container {
   position: absolute;
@@ -327,7 +234,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for the submit button */
 .btn {
-  background-color: #04AA6D;
+  background-color: #006a4e;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -338,57 +245,6 @@ input[type=text]:focus, input[type=password]:focus {
 
 .btn:hover {
   opacity: 1;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#content-wrap {
-  padding-bottom: 2.5rem;
-  /* Footer height */
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-#page-container {
-  position: fixed;
-  min-height: 1000px;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;
-}
-
-#footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-}
-
-#form {
-  margin-top: 2%;
-  padding: 2%;
-}
-
-#form h2 {
-  text-align: center;
-}
-
-#contact {
-  text-align: center;
-}
-
-#contact .contact-email-link {
-  color: #666600;
-  text-decoration: none;
-}
-
-.map {
-  border: 2px solid #000;
-  width: 95%;
-  height: 50%;
 }
 
 /* Style rules for form elements */
@@ -405,8 +261,6 @@ label {
   display: block;
   padding-top: 3%;
 }
-
-.class container {}
 
 form #submit {
   margin: 0 auto;
@@ -544,16 +398,6 @@ footer p a {
       opacity: 1;
       box-shadow: 8px 8px 10px #808080;
       transform: translateY(10);
-    }
-
-    #weights, #cardio, #training {
-      width: 29%;
-      float: left;
-      margin: 0 2%;
-    }
-
-    #exercises {
-      clear: left;
     }
 
     .offer:hover {
