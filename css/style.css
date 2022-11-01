@@ -59,6 +59,10 @@ header img {
   align: center;
 }
 
+body {
+  background-image: url('admin.jpg');
+}
+
 /* Navigation */
 .topnav {
   background-color: #333;
