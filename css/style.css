@@ -194,8 +194,6 @@ main {
 
 .containerfml {
   position: relative;
-  max-height: 1000px;
-  height: 100%;
 }
 
 .formblock {
