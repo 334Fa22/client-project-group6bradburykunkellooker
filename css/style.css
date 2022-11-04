@@ -194,10 +194,12 @@ main {
 
 .containerfml {
   position: relative;
+  max-height: 1000px;
+  height: 100%;
 }
 
 .formblock {
-  position: absolute;
+  position: relative;
   bottom: 20px;
   right: 20px;
   background-color: black;
@@ -207,9 +209,33 @@ main {
 }
 
 /* Picture with form on top */
-.bg-img {
+.bg-img-1 {
   /* The image used */
   background-image: url("images/admin.jpg");
+  /* Control the height of the image */
+  min-height: 380px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img-2 {
+  /* The image used */
+  background-image: url("images/dogwood.jpg");
+  /* Control the height of the image */
+  min-height: 380px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img-3 {
+  /* The image used */
+  background-image: url("images/colden.jpg");
   /* Control the height of the image */
   min-height: 380px;
   /* Center and scale the image nicely */

@@ -12,151 +12,148 @@
   <meta name="description" content="Welcome to Northwest Missouri State University">
 </head>
 
-<div class="topnav">
-  <a class="navlogo" href="https://www.nwmissouri.edu" title="Return"><img alt="Northwest Missouri State University" height="60" src="images/newcatpaws.png" width="60"></a>
-  <a href="index">Home</a>
-  <a href="login">Login</a>
-  <div class="dropdown">
-    <button class="dropbtn">Schedule Information</button>
-    <div class="dropdown-content">
-      <a href="classes">Class Openings</a>
-      <a href="https://ssbprod.nwmissouri.edu/PROD/bwckschd.p_disp_dyn_sched">Class Schedule</a>
-      <a href="https://dwprod-c.nwmissouri.edu:8441/Dashboard/worksheets/WEB31">Degree Audit</a>
+<body>
+  <div class="topnav">
+    <a class="navlogo" href="https://www.nwmissouri.edu" title="Return"><img alt="Northwest Missouri State University" height="60" src="css/images/newcatpaws.png" width="60"></a>
+    <a href="index">Home</a>
+    <a href="login">Login</a>
+    <div class="dropdown">
+      <button class="dropbtn">Schedule Information</button>
+      <div class="dropdown-content">
+        <a href="classes">Class Openings</a>
+        <a href="https://ssbprod.nwmissouri.edu/PROD/bwckschd.p_disp_dyn_sched">Class Schedule</a>
+        <a href="https://dwprod-c.nwmissouri.edu:8441/Dashboard/worksheets/WEB31">Degree Audit</a>
+      </div>
     </div>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn">Applications</button>
-    <div class="dropdown-content">
-      <a
-        href="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=f2ec39da-077d-4ee5-8b35-d1df0fa661aa&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL">Apply
-        for Housing</a>
-      <a href="https://www.nwmissouri.edu/admissions/apply/">Apply for Admissions</a>
-      <a href="applications">Check Application Status (Grad & International)</a>
+    <div class="dropdown">
+      <button class="dropbtn">Applications</button>
+      <div class="dropdown-content">
+        <a
+          href="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=f2ec39da-077d-4ee5-8b35-d1df0fa661aa&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL">Apply
+          for Housing</a>
+        <a href="https://www.nwmissouri.edu/admissions/apply/">Apply for Admissions</a>
+        <a href="applications">Check Application Status (Grad & International)</a>
+      </div>
     </div>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn">Resources</button>
-    <div class="dropdown-content">
-      <a class="active" href="textbook">Textbook Information</a>
-      <a href="https://www.nwmissouri.edu/admissions/transfer/equivalencies.htm">Transfer Equivalencies</a>
+    <div class="dropdown">
+      <button class="dropbtn">Resources</button>
+      <div class="dropdown-content">
+        <a class="active" href="textbook">Textbook Information</a>
+        <a href="https://www.nwmissouri.edu/admissions/transfer/equivalencies.htm">Transfer Equivalencies</a>
+      </div>
     </div>
+    <a href="https://secure.touchnet.com/C21165_tsa/web/login.jsp">Account Payment Center</a>
+    <div class="right">
+      <a href="accessiblity.html">Accessibility Mode</a>
+    </div>
+
   </div>
-  <a href="https://secure.touchnet.com/C21165_tsa/web/login.jsp">Account Payment Center</a>
-  <div class="right">
-    <a href="accessiblity.html">Accessibility Mode</a>
-  </div>
 
-</div>
+  <div id="form">
 
-<div id="form">
+    <form class="container">
+      <!-- Start Form -->
 
-  <h2>Search for a Textbook</h2>
+      <fieldset>
+        <legend>Select Term</legend>
 
-  <form class="container">
-    <!-- Start Form -->
+        <label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Spring 2023">Spring 2023</label>
 
-    <fieldset>
-      <legend>Select Term</legend>
+        <label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Summer 2023">Summer 2023</label>
 
-      <label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Spring 2023">Spring 2023</label>
+        <label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Fall 2023">Fall 2023</label>
 
-      <label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Summer 2023">Summer 2023</label>
+      </fieldset>
 
-      <label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Fall 2023">Fall 2023</label>
+      <fieldset>
+        <legend>Course Info</legend>
+        <label for="fName">Department:</label>
+        <select id="Select">
+          <option value="accounting">Accounting/51</option>
+          <option value="ag">Agriculture/03</option>
+          <option value="google">Art/13</option>
+          <option value="bio">Biological Science/04</option>
+          <option value="career">Career Education/02</option>
+          <option value="chem">Chemistry/24</option>
+          <option value="art & science">College of Arts & Sciences/71</option>
+          <option value="career">College of Ed & Human Serv/73</option>
+          <option value="comm">Comminucation/29</option>
+          <option value="comm sci">Computer Sci/Info Systems/44</option>
+          <option value="crime">Criminology/46</option>
+          <option value="econ">Economics/52</option>
+          <option value="curriculum">Edication: Curriculum/Instr/62</option>
+          <option value="leadership">Education: Genl/Leadership/61</option>
+          <option value="emg">Emergency & Disaster Mgmt/36</option>
+          <option value="english">English/10</option>
+          <option value="family">Family & Consumer Sciences/15</option>
+          <option value="finance">Fincance/53</option>
+          <option value="food">Foods & Nutrition/47</option>
+          <option value="geography">Geography/32</option>
+          <option value="geology">Geology/27</option>
+          <option value="heath & pe">Health & Physical Education/22</option>
+          <option value="health sci">Health Science/29</option>
+          <option value="history">History/33</option>
+          <option value="humanities">Hummanities/26</option>
+          <option value="inter-college">Inter-College/77</option>
+          <option value="interational study">International Study/ 80</option>
+          <option value="languages">Languages/14</option>
+          <option value="mo academy">MO Academy-Sci, Math, Compt/81</option>
+          <option value="management">Management/54</option>
+          <option value="marketing">Marketing/55</option>
+          <option value="mass comm">Mass Comm/20</option>
+          <option value="math & stats">Mathematics & Stats/17</option>
+          <option value="military">Military Science/42</option>
+          <option value="music">Music/19</option>
+          <option value="nw core">NW Core Interdisciplinary/90</option>
+          <option value="nanoscale">Nanoscale Science/48</option>
+          <option value="nursing">Nursing/01</option>
+          <option value="philosophy">Philosophy/39</option>
+          <option value="pe">Physical Science/40</option>
+          <option value="physics">Physics/25</option>
+          <option value="political sci">Political Science/40</option>
+          <option value="phych">Psychology/08</option>
+          <option value="recreation">Recreation/45</option>
+          <option value="counseling">School Counseling/68</option>
+          <option value="science edu">Sciesnce Education/28</option>
+          <option value="sociology">Sociology/35</option>
+          <option value="theatre">Theatre/43</option>
+        </select>
+
+        <label for="course">Course #</label>
+        <textarea id="course #" name="course #" rows="1" cols="12"></textarea>
+        </select>
+
+        <label for="course">Course Category:</label>
+        <select id="Select">
+          <option value-="media">Undergrad</option>
+          <option value-="media">Graduate</option>
+          <option value-="media">Specialist</option>
+        </select>
+      </fieldset>
+
+
+      <fieldset>
+        <legend>Extra</legend>
+        <label for="course">Instructor:</label>
+        <textarea id="course #" name="course #" rows="1" cols="12"></textarea>
+        </select>
+
+        <label for="email">Part of Term:</label>
+        <select id="Select">
+          <option value-="block 1">Block 1</option>
+          <option value-="block 2">Block 2</option>
+          <option value-="full term">Full Term</option>
+        </select>
+      </fieldset>
+
+      <input type="submit" id="submit" value="Submit" class="btn">
+    </form>
 
     </fieldset>
 
-    <fieldset>
-      <legend>Course Info</legend>
-      <label for="fName">Department:</label>
-      <select id="Select">
-        <option value="accounting">Accounting/51</option>
-        <option value="ag">Agriculture/03</option>
-        <option value="google">Art/13</option>
-        <option value="bio">Biological Science/04</option>
-        <option value="career">Career Education/02</option>
-        <option value="chem">Chemistry/24</option>
-        <option value="art & science">College of Arts & Sciences/71</option>
-        <option value="career">College of Ed & Human Serv/73</option>
-        <option value="comm">Comminucation/29</option>
-        <option value="comm sci">Computer Sci/Info Systems/44</option>
-        <option value="crime">Criminology/46</option>
-        <option value="econ">Economics/52</option>
-        <option value="curriculum">Edication: Curriculum/Instr/62</option>
-        <option value="leadership">Education: Genl/Leadership/61</option>
-        <option value="emg">Emergency & Disaster Mgmt/36</option>
-        <option value="english">English/10</option>
-        <option value="family">Family & Consumer Sciences/15</option>
-        <option value="finance">Fincance/53</option>
-        <option value="food">Foods & Nutrition/47</option>
-        <option value="geography">Geography/32</option>
-        <option value="geology">Geology/27</option>
-        <option value="heath & pe">Health & Physical Education/22</option>
-        <option value="health sci">Health Science/29</option>
-        <option value="history">History/33</option>
-        <option value="humanities">Hummanities/26</option>
-        <option value="inter-college">Inter-College/77</option>
-        <option value="interational study">International Study/ 80</option>
-        <option value="languages">Languages/14</option>
-        <option value="mo academy">MO Academy-Sci, Math, Compt/81</option>
-        <option value="management">Management/54</option>
-        <option value="marketing">Marketing/55</option>
-        <option value="mass comm">Mass Comm/20</option>
-        <option value="math & stats">Mathematics & Stats/17</option>
-        <option value="military">Military Science/42</option>
-        <option value="music">Music/19</option>
-        <option value="nw core">NW Core Interdisciplinary/90</option>
-        <option value="nanoscale">Nanoscale Science/48</option>
-        <option value="nursing">Nursing/01</option>
-        <option value="philosophy">Philosophy/39</option>
-        <option value="pe">Physical Science/40</option>
-        <option value="physics">Physics/25</option>
-        <option value="political sci">Political Science/40</option>
-        <option value="phych">Psychology/08</option>
-        <option value="recreation">Recreation/45</option>
-        <option value="counseling">School Counseling/68</option>
-        <option value="science edu">Sciesnce Education/28</option>
-        <option value="sociology">Sociology/35</option>
-        <option value="theatre">Theatre/43</option>
-      </select>
-
-      <label for="course">Course #</label>
-      <textarea id="course #" name="course #" rows="1" cols="12"></textarea>
-      </select>
-
-      <label for="course">Course Category:</label>
-      <select id="Select">
-        <option value-="media">Undergrad</option>
-        <option value-="media">Graduate</option>
-        <option value-="media">Specialist</option>
-      </select>
-    </fieldset>
-
-
-    <fieldset>
-      <legend>Extra</legend>
-      <label for="course">Instructor:</label>
-      <textarea id="course #" name="course #" rows="1" cols="12"></textarea>
-      </select>
-
-      <label for="email">Part of Term:</label>
-      <select id="Select">
-        <option value-="block 1">Block 1</option>
-        <option value-="block 2">Block 2</option>
-        <option value-="full term">Full Term</option>
-      </select>
-    </fieldset>
-
-    <input type="submit" id="submit" value="Submit" class="btn">
-  </form>
-
-  </fieldset>
-
-  <body>
     <div class="containerfml">
-      <img src="images/admin.jpg" alt="students walking from Colden Hall" style="width:100%">
 
-      <div class="bg-img">
+      <div class="bg-img-3">
         <form action="/login.html" class="container">
           <h1>Search for a Textbook</h1>
 
@@ -186,67 +183,62 @@
 
       </div>
     </div>
-</div>
-</body>
-
-<footer>
-
-  <div class="footer">
-    <div class="navbar" id="myNavbar">
-      <a href="index">Home</a>
-      <a href="login">Login</a>
-      <div class="dropdown">
-        <button class="dropbtn">Schedule Information
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="classes">Class Openings</a>
-          <a href="https://ssbprod.nwmissouri.edu/PROD/bwckschd.p_disp_dyn_sched">Class Schedule</a>
-          <a href="https://dwprod-c.nwmissouri.edu:8441/Dashboard/worksheets/WEB31">Degree Audit</a>
-        </div>
-      </div>
-      <div class="dropdown">
-        <button class="dropbtn">Applications
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a
-            href="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=f2ec39da-077d-4ee5-8b35-d1df0fa661aa&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL">Apply
-            for Housing</a>
-          <a href="https://www.nwmissouri.edu/admissions/apply/">Apply for Admissions</a>
-          <a href="applications">Check Application Status (Grad & International)</a>
-        </div>
-      </div>
-      <div class="dropdown">
-        <button class="dropbtn">Resources
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="textbook">Textbook Information</a>
-          <a href="https://www.nwmissouri.edu/admissions/transfer/equivalencies.htm">Transfer Equivalencies</a>
-        </div>
-      </div>
-      <a href="https://secure.touchnet.com/C21165_tsa/web/login.jsp">Account Payment Center</a>
-      <div class="right">
-        <a href="accessiblity.html">Accessibility Mode</a>
-      </div>
-    </div>
-
-    <div class="social">
-      <a href="/" target="https:www.facebook.com/nwmostate"> <img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
-      <a href="/" target="https:www.twitter.com/nwmostate"> <img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
-    </div>
-
-    <div class="copyright">
-      <p><a href="mailto:nwmissouri.edu">nwmissouri.edu</a></p>
-      <p>&copy; Copyright 2022. All Rights Reserved.</p>
-      <p>Non-Official Website created by Group 6 Web Development II</p>
-    </div>
-
   </div>
 
-</footer>
+  <footer id="footer">
 
+    <div class="footer">
+      <div class="navbar" id="myNavbar">
+        <a href="index">Home</a>
+        <a href="login">Login</a>
+        <div class="dropdown">
+          <button class="dropbtn">Schedule Information
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="classes">Class Openings</a>
+            <a href="https://ssbprod.nwmissouri.edu/PROD/bwckschd.p_disp_dyn_sched">Class Schedule</a>
+            <a href="https://dwprod-c.nwmissouri.edu:8441/Dashboard/worksheets/WEB31">Degree Audit</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Applications
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a
+              href="https://eisprod.nwmissouri.edu:9443/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fnwmsussomanp01.nwmissouri.edu%3A8443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=f2ec39da-077d-4ee5-8b35-d1df0fa661aa&relyingParty=SSB-8+SSO+PROD&type=cas&sp=SSB-8+SSO+PROD&isSaaSApp=false&authenticators=MultiAttributeAuthenticator:LOCAL">Apply
+              for Housing</a>
+            <a href="https://www.nwmissouri.edu/admissions/apply/">Apply for Admissions</a>
+            <a href="applications">Check Application Status (Grad & International)</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Resources
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="textbook">Textbook Information</a>
+            <a href="https://www.nwmissouri.edu/admissions/transfer/equivalencies.htm">Transfer Equivalencies</a>
+          </div>
+        </div>
+        <a href="https://secure.touchnet.com/C21165_tsa/web/login.jsp">Account Payment Center</a>
+        <div class="right">
+          <a href="accessiblity.html">Accessibility Mode</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="social">
+          <a href="/" target="https:www.facebook.com/nwmostate"> <img src="css/images/facebook-logo.png" alt="black and white Facebook logo"></a>
+          <a href="/" target="https:www.twitter.com/nwmostate"> <img src="css/images/twitter-logo.png" alt="black and white Twitter logo"></a>
+          <a> &copy; Copyright 2022. All Rights Reserved.</a>
+          <p>Non-Official Website created by Group 6 Web Development II</p>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </footer>
 </body>
 
 </html>
