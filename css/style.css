@@ -194,6 +194,7 @@ main {
 
 .containerfml {
   position: relative;
+  height: 700px;
 }
 
 .formblock {
@@ -209,7 +210,8 @@ main {
 /* Picture with form on top */
 .bg-img-1 {
   /* The image used */
-  background-image: url("images/admin.jpg");
+  background-image: url("images/bridge.jpg");
+  height: 100%;
   /* Control the height of the image */
   min-height: 380px;
   /* Center and scale the image nicely */
@@ -221,7 +223,8 @@ main {
 
 .bg-img-2 {
   /* The image used */
-  background-image: url("images/dogwood.jpg");
+  background-image: url("images/yellow.jpg");
+  height: 100%;
   /* Control the height of the image */
   min-height: 380px;
   /* Center and scale the image nicely */
@@ -233,7 +236,34 @@ main {
 
 .bg-img-3 {
   /* The image used */
-  background-image: url("images/colden.jpg");
+  background-image: url("images/south.jpg");
+  height: 100%;
+  /* Control the height of the image */
+  min-height: 380px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img-4 {
+  /* The image used */
+  background-image: url("images/flags.jpg");
+  height: 100%;
+  /* Control the height of the image */
+  min-height: 380px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img-5 {
+  /* The image used */
+  background-image: url("images/dogwood.jpg");
+  height: 100%;
   /* Control the height of the image */
   min-height: 380px;
   /* Center and scale the image nicely */
@@ -252,7 +282,7 @@ main {
   position: absolute;
   right: 0;
   margin: 20px;
-  max-width: 300px;
+  max-width: 450px;
   padding: 16px;
   background-color: white;
 }
@@ -288,6 +318,12 @@ input[type=text]:focus, input[type=password]:focus {
 /* Style rules for form elements */
 fieldset, input, select, textarea {
   margin-bottom: 2%;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  color: #666;
 }
 
 fieldset legend {

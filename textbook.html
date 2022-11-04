@@ -49,141 +49,108 @@
 
   </div>
 
-  <div id="form">
-
-    <form class="container">
-      <!-- Start Form -->
-
-      <fieldset>
-        <legend>Select Term</legend>
-
-        <label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Spring 2023">Spring 2023</label>
-
-        <label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Summer 2023">Summer 2023</label>
-
-        <label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Fall 2023">Fall 2023</label>
-
-      </fieldset>
-
-      <fieldset>
-        <legend>Course Info</legend>
-        <label for="fName">Department:</label>
-        <select id="Select">
-          <option value="accounting">Accounting/51</option>
-          <option value="ag">Agriculture/03</option>
-          <option value="google">Art/13</option>
-          <option value="bio">Biological Science/04</option>
-          <option value="career">Career Education/02</option>
-          <option value="chem">Chemistry/24</option>
-          <option value="art & science">College of Arts & Sciences/71</option>
-          <option value="career">College of Ed & Human Serv/73</option>
-          <option value="comm">Comminucation/29</option>
-          <option value="comm sci">Computer Sci/Info Systems/44</option>
-          <option value="crime">Criminology/46</option>
-          <option value="econ">Economics/52</option>
-          <option value="curriculum">Edication: Curriculum/Instr/62</option>
-          <option value="leadership">Education: Genl/Leadership/61</option>
-          <option value="emg">Emergency & Disaster Mgmt/36</option>
-          <option value="english">English/10</option>
-          <option value="family">Family & Consumer Sciences/15</option>
-          <option value="finance">Fincance/53</option>
-          <option value="food">Foods & Nutrition/47</option>
-          <option value="geography">Geography/32</option>
-          <option value="geology">Geology/27</option>
-          <option value="heath & pe">Health & Physical Education/22</option>
-          <option value="health sci">Health Science/29</option>
-          <option value="history">History/33</option>
-          <option value="humanities">Hummanities/26</option>
-          <option value="inter-college">Inter-College/77</option>
-          <option value="interational study">International Study/ 80</option>
-          <option value="languages">Languages/14</option>
-          <option value="mo academy">MO Academy-Sci, Math, Compt/81</option>
-          <option value="management">Management/54</option>
-          <option value="marketing">Marketing/55</option>
-          <option value="mass comm">Mass Comm/20</option>
-          <option value="math & stats">Mathematics & Stats/17</option>
-          <option value="military">Military Science/42</option>
-          <option value="music">Music/19</option>
-          <option value="nw core">NW Core Interdisciplinary/90</option>
-          <option value="nanoscale">Nanoscale Science/48</option>
-          <option value="nursing">Nursing/01</option>
-          <option value="philosophy">Philosophy/39</option>
-          <option value="pe">Physical Science/40</option>
-          <option value="physics">Physics/25</option>
-          <option value="political sci">Political Science/40</option>
-          <option value="phych">Psychology/08</option>
-          <option value="recreation">Recreation/45</option>
-          <option value="counseling">School Counseling/68</option>
-          <option value="science edu">Sciesnce Education/28</option>
-          <option value="sociology">Sociology/35</option>
-          <option value="theatre">Theatre/43</option>
-        </select>
-
-        <label for="course">Course #</label>
-        <textarea id="course #" name="course #" rows="1" cols="12"></textarea>
-        </select>
-
-        <label for="course">Course Category:</label>
-        <select id="Select">
-          <option value-="media">Undergrad</option>
-          <option value-="media">Graduate</option>
-          <option value-="media">Specialist</option>
-        </select>
-      </fieldset>
-
-
-      <fieldset>
-        <legend>Extra</legend>
-        <label for="course">Instructor:</label>
-        <textarea id="course #" name="course #" rows="1" cols="12"></textarea>
-        </select>
-
-        <label for="email">Part of Term:</label>
-        <select id="Select">
-          <option value-="block 1">Block 1</option>
-          <option value-="block 2">Block 2</option>
-          <option value-="full term">Full Term</option>
-        </select>
-      </fieldset>
-
-      <input type="submit" id="submit" value="Submit" class="btn">
-    </form>
-
-    </fieldset>
-
+  <main>
     <div class="containerfml">
 
       <div class="bg-img-3">
         <form action="/login.html" class="container">
           <h1>Search for a Textbook</h1>
 
+          <label for="course"><b>Course Category</b></label>
+          <select id="Select">
+            <option value-="media">Undergrad</option>
+            <option value-="media">Graduate</option>
+            <option value-="media">Specialist</option>
+          </select>
+          <br>
+
+          <label for="course"><b>Select Term</b></label>
+          <select id="Select">
+            <option value-="media">Spring 2023</option>
+            <option value-="media">Summer 2023</option>
+            <option value-="media">Fall 2023</option>
+          </select>
+
+          <br>
+
+
+          <label for="term"><b>Part of Term</b></label>
+          <select id="Select">
+            <option value-="block 1">Block 1</option>
+            <option value-="block 2">Block 2</option>
+            <option value-="full term">Full Term</option>
+          </select>
+
+          <br>
+
           <label for="course"><b>Instructor</b></label>
           <input type="text" placeholder="Instructor First or Last Name" name="instructor" required>
 
-          <label for="term"><b>Part of Term</b></label>
-          <input type="term" placeholder="Select Term" name="term" required>
+          <label for="course"><b>Course #</b></label>
+          <input type="text" placeholder="DEPT12345" name="instructor" required>
+
+          <label for="course"><b>Department</label>
+          <select id="Select">
+            <option value="accounting">Accounting/51</option>
+            <option value="ag">Agriculture/03</option>
+            <option value="google">Art/13</option>
+            <option value="bio">Biological Science/04</option>
+            <option value="career">Career Education/02</option>
+            <option value="chem">Chemistry/24</option>
+            <option value="art & science">College of Arts & Sciences/71</option>
+            <option value="career">College of Ed & Human Serv/73</option>
+            <option value="comm">Comminucation/29</option>
+            <option value="comm sci">Computer Sci/Info Systems/44</option>
+            <option value="crime">Criminology/46</option>
+            <option value="econ">Economics/52</option>
+            <option value="curriculum">Edication: Curriculum/Instr/62</option>
+            <option value="leadership">Education: Genl/Leadership/61</option>
+            <option value="emg">Emergency & Disaster Mgmt/36</option>
+            <option value="english">English/10</option>
+            <option value="family">Family & Consumer Sciences/15</option>
+            <option value="finance">Fincance/53</option>
+            <option value="food">Foods & Nutrition/47</option>
+            <option value="geography">Geography/32</option>
+            <option value="geology">Geology/27</option>
+            <option value="heath & pe">Health & Physical Education/22</option>
+            <option value="health sci">Health Science/29</option>
+            <option value="history">History/33</option>
+            <option value="humanities">Hummanities/26</option>
+            <option value="inter-college">Inter-College/77</option>
+            <option value="interational study">International Study/ 80</option>
+            <option value="languages">Languages/14</option>
+            <option value="mo academy">MO Academy-Sci, Math, Compt/81</option>
+            <option value="management">Management/54</option>
+            <option value="marketing">Marketing/55</option>
+            <option value="mass comm">Mass Comm/20</option>
+            <option value="math & stats">Mathematics & Stats/17</option>
+            <option value="military">Military Science/42</option>
+            <option value="music">Music/19</option>
+            <option value="nw core">NW Core Interdisciplinary/90</option>
+            <option value="nanoscale">Nanoscale Science/48</option>
+            <option value="nursing">Nursing/01</option>
+            <option value="philosophy">Philosophy/39</option>
+            <option value="pe">Physical Science/40</option>
+            <option value="physics">Physics/25</option>
+            <option value="political sci">Political Science/40</option>
+            <option value="phych">Psychology/08</option>
+            <option value="recreation">Recreation/45</option>
+            <option value="counseling">School Counseling/68</option>
+            <option value="science edu">Sciesnce Education/28</option>
+            <option value="sociology">Sociology/35</option>
+            <option value="theatre">Theatre/43</option>
+          </select>
+          <br>
 
 
-          <fieldset>
-            <legend>Extra</legend>
-            <label for="course">Instructor:</label>
-            <textarea id="course #" name="course #" rows="1" cols="12"></textarea>
-            </select>
-
-            <label for="email">Part of Term:</label>
-            <select id="Select">
-              <option value-="block 1">Block 1</option>
-              <option value-="block 2">Block 2</option>
-              <option value-="full term">Full Term</option>
-            </select>
-          </fieldset>
           <button type="submit" class="btn">Search</button>
         </form>
 
 
       </div>
     </div>
-  </div>
+    </div>
+  </main>
 
   <footer id="footer">
 
