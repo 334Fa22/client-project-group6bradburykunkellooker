@@ -60,7 +60,7 @@ header {
   clear: left;
 }
 
-.navlogo {
+.navlogo a {
   padding: 0px;
   background-color: white;
 }
