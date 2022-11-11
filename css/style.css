@@ -297,6 +297,8 @@ input[type=text]:focus, input[type=password]:focus {
 /* Set a style for the submit button */
 .btn {
   background-color: #006a4e;
+  font-family: sans-serif;
+  font-size: 0.8em;
   color: white;
   padding: 16px 20px;
   border: none;
